@@ -1,0 +1,165 @@
+body,html{
+    overflow-x: hidden !important;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+:root{
+    --blue:#0000FF;
+}
+.s30{
+    height: 100vh;
+    overflow: scroll;
+}
+.s31{
+    height: 100vh;
+    overflow-y: scroll;
+   
+}
+.s30::-webkit-scrollbar {
+    display:none;
+  }
+
+  .s31::-webkit-scrollbar {
+    display:none;
+  }
+h2{
+    color: var(--blue);
+}
+.s1{
+    border: 1px solid black;
+}
+.s2{
+    margin-right: 41%;
+}    
+.s3:hover{
+    border: none;
+}
+  .s5{
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .s6{
+    text-decoration: none;
+    list-style: circle;
+  }
+.s7{
+    padding: 20px;
+
+}
+/* .s8{
+    background-color: antiquewhite;
+} */
+/* .kl{
+    border: 1px solid black;
+}   */
+.s9{
+    text-decoration: none;
+    color: black;
+}
+.s9:hover{
+    color: var(--blue);
+}
+.s10{
+    position: relative;
+    top: auto;
+    left: auto;
+    padding: 0;
+    transform:none ;
+}
+.s11{
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+    background-color:antiquewhite;
+    border-radius: 9px 9px 0 0;
+    padding: 8px 0 7px;
+    text-align: center;
+}
+.s12{
+    font-size: 12px;
+    background-color: black;
+    line-height: inherit;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 0 0 9px 9px;
+    transform: 3;
+    text-align: center;
+}
+.s12:hover{
+    background-color: var(--blue);
+}
+.s13{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: orangered;
+    float: right;
+    padding: 7px 20px;
+    border-radius: 15px;
+    text-align: end;
+}
+.s14{
+    text-decoration: none;
+    background-color: bisque;
+    border-radius: 15px;
+    color: black;
+    font-size: small;
+}
+.s14:hover{
+    color: white;
+    background-color: powderblue;
+}
+.s15{
+    border-radius: 50%;
+    height: 45px;
+}
+.s20{
+    border-bottom: 60px solid #c5c5c5;
+    
+}
+.s21{
+    height: 120px;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    bottom: 0;
+    top:45%;
+}
+.s22{
+    height: 225px;
+}
+.s23{
+    text-align: center !important;
+}
+.s24{
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: small;
+}
+.s25:hover{
+    color: var(--blue);
+}
+.s26{
+    border-radius: 20px;
+    font-size: larger;
+}
+.s27{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+.s28{
+    height: 25px;
+}
+.s29{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}

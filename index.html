@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shruti</a><i class="fa fa-bars" aria-hidden="true"></i>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <form class="d-flex">
+          <i class="fa fa-search pt-2 ps-2 pe-2" aria-hidden="true"></i>
+          <input class="form-control me-2 s3" style="border: none;" type="search" placeholder="start typing to search"
+            aria-label="Search">
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+        <ul class="navbar-nav mb-2 mb-lg-0 s2">
+          <!-- <li class="nav-item"> -->
+          <!-- <form class="d-flex">
+                        <i class="fa fa-search pt-2 pe-2" aria-hidden="true"></i>
+                        <input class="form-control me-2" style="border: none;" type="search" placeholder="start typing to search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form> -->
+          <!-- </li> -->
+          <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+          <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+          <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0 pe-5">
+          <li class="nav-item dropdown ps-2 pe-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="img/2.webp" alt="No picture found" height="32px"> English
+            </a>
+            <ul class="dropdown-menu ps-2 pe-2" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Deutsch</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#">Espanol</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active pe-3 ps-3" aria-current="page" href="#"><i class="fa fa-bell-o"
+                style="font-size: 130%;" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active pe-3 ps-3" aria-current="page" href="#"><i class="fa fa-envelope-o"
+                style="font-size: 130%;" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown ps-2 pe-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="img/1.jpg" alt="No picture found" height="32px"><b>Hi, cukobik</b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"><b><i class="fa fa-pencil-square-o pe-1"
+                      aria-hidden="true"></i></b>My Account</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa fa-cog pe-1" aria-hidden="true"></i> My Profile</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out pe-1" aria-hidden="true"></i>Logout</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  <!-- Senssion start -->
+  <div class="row">
+    <div class="col-sm-2 mt-5 kl s30">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        <span class="shadow  bg-white pe-2" type=""><img src="img/home.png" alt="no picture found" height="25px"></span>
+        Home page
+      </a>
+      <ul class="dropdown-menu ps-2 pe-2 " aria-labelledby="navbarDropdown">
+        <li class="s6"><a class="dropdown-item" href="#">Extrant</a></li>
+        <li class="s6"><a class="dropdown-item" href="#">Community</a></li>
+        <li class="s6"><a class="dropdown-item" href="#">Community news</a></li>
+        <li class="s6"><a class="dropdown-item" href="#">E-Learning</a></li>
+      </ul>
+
+      <p class="color p-3"> COMMUNITY</p>
+      <ul class="as">
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/writing.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Knowledge Base</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/send.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Activity</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/email.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Messages</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/user.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Members</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/radio.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Groups</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/chat.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Forums</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/calendar.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Events</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/document.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Documents</a></span>
+        </li>
+      </ul>
+      <p class="color p-3"> E- learning</p>
+      <ul class="as">
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/star.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Learn dase</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/lightbulb.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Learn Press</a></span>
+        </li>
+      </ul>
+      <p class="color p-3"> WP job manager</p>
+      <ul class="as">
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/shopping-bag.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark" style="text-decoration: none;">All
+              jobs</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/writing.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark" style="text-decoration: none;">job
+</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/circle.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Resumes</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/writing.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align:left;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration:none;">Candidate Dashborad</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/edit.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Post a ajob</a></span>
+        </li>
+      </ul>
+      <p class="color p-3"> Others</p>
+      <ul class="as">
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/shopping-bag.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Membership</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/shopping-cart (1).png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Shop</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/leaf.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">News</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/data-management.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Charts & Graphs</a></span>
+        </li>
+        <li class="d-flex gap-2 mt-2">
+          <span class="shadow  bg-white p-2" type=""><img src="img/edit.png" class="" alt="No picture found"
+              height="20px"></span>
+          <span style="text-align: center;" class="mt-2"><a href="" class="text-dark"
+              style="text-decoration: none;">Pages</a></span>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-10   col-md- 12   col-sm-12 mt-5 s8 kl s31 bg-light">
+      <h1 class="p-3">Community</h1>
+      <hr>
+      <div class="container kl">
+        <div class="row">
+          <div class="col-lg-3   col-md- 12   col-sm-12 kl">
+            <div class="card s7 p-3">
+              <h2 class="text-black">Lateset news</h2>
+              <hr class="pb-2">
+              <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <a href="#" class="s9">Collection </a><a href="#" class="s9"><span class="s9 ps-5"
+                    style="font-size: small;"> April 5, 2020</span></a>
+                <h5 class="mt-2"><a href="#" class="s9"> 10 Tips for working women from Home with kids</a></h5>
+                <img src="img/like.jpg" alt="no image found" height="20px"><span class="ps-2 pe-3">13</span><img
+                  src="img/comment.jpg" alt="no image found" height="25px"><span class="ps-2 pe-3">2</span>
+              </div>
+              <img class="card-img-top" src="img/4.jpg" alt="Card image cap">
+              <div class="card-body">
+                <a href="#" class="s9">Collection </a><a href="#" class="s9"><span class="s9 ps-5"
+                    style="font-size: small;"> April 5, 2020</span></a>
+                <h5 class="mt-2"><a href="#" class="s9"> 10+ uinque instragram Layout Ideas & Concepts</a></h5>
+                <img src="img/like.jpg" alt="no image found" height="20px"><span class="ps-2 pe-3">6</span><img
+                  src="img/comment.jpg" alt="no image found" height="25px"><span class="ps-2 pe-3">0</span>
+              </div>
+              <img class="card-img-top" src="img/5.jpg" alt="Card image cap">
+              <div class="card-body">
+                <a href="#" class="s9">Collection </a><a href="#" class="s9"><span class="s9 ps-5"
+                    style="font-size: small;"> April 5, 2020</span></a>
+                <h5 class="mt-2"><a href="#" class="s9"> When you find a good Idea, Look for a better One</a></h5>
+                <img src="img/like.jpg" alt="no image found" height="20px"><span class="ps-2 pe-3">6</span><img
+                  src="img/comment.jpg" alt="no image found" height="25px"><span class="ps-2 pe-3">0</span>
+              </div>
+            </div>
+            <div class="card p-3 mt-5" >
+              <div class="card-body">
+                <h5 class="card-title">Features events</h5>
+                <hr>
+                <div class="card mb-3" style="max-width: 540px; border: none;">
+                  <div class="row g-1">
+                    <div class="col-md-4 mt-3">
+                      <div class="d-flex flex-column">
+                        <a href="" class="s10"></a>
+                        <span class="s11">02</span>
+                        <span class="s12">JAN</span>
+                      </div>
+                      <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body p-0">
+                        <!-- <h5 class="card-title">Card title</h5> -->
+                        <a href="#" class="s9 card-title">WorldCamp New York</a>
+                        <p class="card-text"><small class="text-muted">January 2, 2024 08:00</small></p>
+                        <p class="p-0 m-0">$95</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="card mb-3" style="max-width: 540px; border: none;">
+                  <div class="row g-1">
+                    <div class="col-md-4">
+                      <div class="d-flex flex-column">
+                        <a href="" class="s10"></a>
+                        <span class="s11">12</span>
+                        <span class="s12">JAN</span>
+                      </div>
+                      <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body p-0">
+                        <!-- <h5 class="card-title">Card title</h5> -->
+                        <a href="#" class="s9 card-title">E-commerce Conference</a>
+                        <p class="card-text"><small class="text-muted">January 12, 2024 18:00</small></p>
+                        <p class="m-0 p-0">$135</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="card mb-3" style="max-width: 540px; border: none;">
+                  <div class="row g-1">
+                    <div class="col-md-4">
+                      <div class="d-flex flex-column">
+                        <a href="" class="s10"></a>
+                        <span class="s11">14</span>
+                        <span class="s12">MAR</span>
+                      </div>
+                      <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body p-0">
+                        <!-- <h5 class="card-title">Card title</h5> -->
+                        <a href="#" class="s9 card-title">Picasso Exhibition</a>
+                        <p class="card-text"><small class="text-muted">March 14, 2024 08:00</small></p>
+                        <p class="m-0 p-0">$95</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <a href="#" class="s9">VIEW ALL <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+                <!-- <a href="#" class="s10">
+                  <div class="d-flex flex-column">
+                  <span class="s11">02</span>
+                  <span class="s12">JAN</span>
+                </div>
+                </a> -->
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+
+            <div class="card mt-5 p-2" >
+              <h5 class="card-title p-2 m-0">Team member <span class="s13">6</span></h5>
+              <div class="card-body">
+                <!-- <h5 class="card-title">Team member <span class="s13">6</span></h5> -->
+                <hr>
+                <a href="#" class="s14 p-2">NEWEST</a>
+                <a href="#" class="s14 p-2">ACTIVE</a>
+                <a href="#" class="s14 p-2">POPULAR</a>
+                <div class="card mb-3 mt-3" style="max-width: 540px; border: none;">
+                  <div class="row g-1">
+                    <div class="col-md-4">
+                      <a href=""><img src="img/6.jpg" style="border-radius: 50%;" alt="no image found" height="70px"></a>
+                      <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body p-0">
+                        <!-- <h5 class="card-title">Card title</h5> -->
+                        <a href="#" class="s9 card-title">Jack black</a>
+                        <p class="card-text"><small class="text-muted">Register 1 Year , 11 months ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 mt-3" style="max-width: 540px; border: none;">
+                  <div class="row g-1">
+                    <div class="col-md-4">
+                      <a href=""><img src="img/7.png" alt="no image found" style="border-radius: 50%;" height="70px"></a>
+                      <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body p-0">
+                        <!-- <h5 class="card-title">Card title</h5> -->
+                        <a href="#" class="s9 card-title">Anna Smith</a>
+                        <p class="card-text"><small class="text-muted">Active 18 hours, 9 minutes ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 mt-3" style="max-width: 540px; border: none;">
+                  <div class="row g-1">
+                    <div class="col-md-4">
+                      <a href=""><img src="img/8.png" alt="no image found" height="70px" style="border-radius: 50%;" ></a>
+                      <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body p-0">
+                        <!-- <h5 class="card-title">Card title</h5> -->
+                        <a href="#" class="s9 card-title">Roxy</a>
+                        <p class="card-text"><small class="text-muted">Active 1 year, 2 months ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <a href="#" class="s9">VIEW ALL <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+            <div class="card s7 p-3 mt-5 mb-5">
+              <h2 class="text-black">Lateset news</h2>
+              <hr class="pb-2">
+              <!-- <img class="card-img-top" src="img/3.jpg" alt="Card image cap"> -->
+              <div class="card-body">
+                <a href="#" class="s9">Collection </a><a href="#" class="s9"><span class="s9 ps-5"
+                    style="font-size: small;"> April 5, 2020</span></a>
+                <h5 class="mt-2"><a href="#" class="s9"> 10 Tips for working women from Home with kids</a></h5>
+                <img src="img/like.jpg" alt="no image found" height="20px"><span class="ps-2 pe-3">13</span><img
+                  src="img/comment.jpg" alt="no image found" height="25px"><span class="ps-2 pe-3">2</span>
+              </div>
+              <!-- <img class="card-img-top" src="img/4.jpg" alt="Card image cap"> -->
+              <div class="card-body">
+                <a href="#" class="s9">Collection </a><a href="#" class="s9"><span class="s9 ps-5"
+                    style="font-size: small;"> April 5, 2020</span></a>
+                <h5 class="mt-2"><a href="#" class="s9"> 10+ uinque instragram Layout Ideas & Concepts</a></h5>
+                <img src="img/like.jpg" alt="no image found" height="20px"><span class="ps-2 pe-3">6</span><img
+                  src="img/comment.jpg" alt="no image found" height="25px"><span class="ps-2 pe-3">0</span>
+              </div>
+              <!-- <img class="card-img-top" src="img/5.jpg" alt="Card image cap"> -->
+              <div class="card-body">
+                <a href="#" class="s9">Collection </a><a href="#" class="s9"><span class="s9 ps-5"
+                    style="font-size: small;"> April 5, 2020</span></a>
+                <h5 class="mt-2"><a href="#" class="s9"> When you find a good Idea, Look for a better One</a></h5>
+                <img src="img/like.jpg" alt="no image found" height="20px"><span class="ps-2 pe-3">6</span><img
+                  src="img/comment.jpg" alt="no image found" height="25px"><span class="ps-2 pe-3">0</span>
+                  <hr>
+                  <a href="#" class="s9">VIEW ALL <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+           
+          </div>
+          <div class="col-lg-6  col-md- 12   col-sm-12 kl">
+
+            <div class="card p-2 ">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-6">
+                        <img src="img/6.jpg" alt="no image found" height="45px" style="border-radius: 50%;"><a href="#" class="s9 ps-3 pe-1">Jack black</a><span class="text-muted">joined the group</span>
+                        <a href="#" class="s9"><span class="text-muted ps-5">20 Hour, 18 Minutes ago</span></a>
+                  </div>
+                  <!-- <div class="card p-2 mt-3">
+                    <div class="card-body">
+                      <p class="card-title">
+                        <div class="d-flex">
+                            <div class="col sm-6">
+                                    <div class="d-flex">
+                                        <img src="img/6.jpg" class="p-1 mt-1 img-fluid  s15" alt="" style="height: 45px;">
+                                        <span class="p-1 mt-1" style="font-size: small;">Jack Black joined the group <a href="" class="text-muted " style="text-decoration: none;">20 hours, 15 minutes ago</a></span><a href=""></a>
+                                    </div>
+                            </div>
+                            <div class="col sm-6">
+                                <div class="d-flex">
+                                    <img src="img/9.jpg" class="p-1 mt-1 img-fluid  s19" alt="No image found">
+                                    <span class="p-1 mt-1 " style="font-size: small;">Jack Black joined the group </span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img src="..." class="card-img-bottom" alt="...">
+                </div> -->
+                  <div class="col-sm-6">
+                    <a href="#" class="s9"> <img src="img/9.jpg" alt="No match found" height="20px" style="border-radius: 50%;"><span>Management Secrets</span></a>
+                  </div>
+                </div>
+                <div class="s22">
+                <a href=""><img src="img/10.jpg" alt="no image found" class="card-img-bottom s20 mt-5"></a>
+              </div>
+              <div>
+                <a href="#"><img src="img/9.jpg" alt="no image found" class="s21"></a>
+              </div>
+                  <p class="mt-5 text-center s25">Management Secret</p>
+                  <button type="button" class="btn btn-primary s24">VISIT GROUP</button>
+                <!-- <h5 class="card-title"></h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+             
+              <img src="..." class="card-img-bottom" alt="..."> -->
+              </div>
+              <div class="d-flex">
+             <!-- <div class="col-sm-4">  -->
+              <i class="fa fa-comment-o p-1" aria-hidden="true"><span class="p-2">Comment 0</span></i>
+              <!-- </div> -->
+              <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-star-o p-1" aria-hidden="true"><span class="p-2">Favorite</span></i>
+            <!-- </div> -->
+            <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-trash-o p-1" aria-hidden="true"><span class="p-2">Delete</span></i>
+            <!-- </div> -->
+              </div>
+            </div>
+
+
+            <div class="card p-2 mt-5">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-6">
+                        <img src="img/6.jpg" alt="no image found" height="45px" style="border-radius: 50%;"><a href="#" class="s9 ps-3 pe-1">Jack black</a><span class="text-muted">joined the group</span>
+                        <a href="#" class="s9"><span class="text-muted ps-5">1 day , 8 hours ago</span></a>
+                  </div>
+                  <!-- <div class="card p-2 mt-3">
+                    <div class="card-body">
+                      <p class="card-title">
+                        <div class="d-flex">
+                            <div class="col sm-6">
+                                    <div class="d-flex">
+                                        <img src="img/6.jpg" class="p-1 mt-1 img-fluid  s15" alt="" style="height: 45px;">
+                                        <span class="p-1 mt-1" style="font-size: small;">Jack Black joined the group <a href="" class="text-muted " style="text-decoration: none;">20 hours, 15 minutes ago</a></span><a href=""></a>
+                                    </div>
+                            </div>
+                            <div class="col sm-6">
+                                <div class="d-flex">
+                                    <img src="img/9.jpg" class="p-1 mt-1 img-fluid  s19" alt="No image found">
+                                    <span class="p-1 mt-1 " style="font-size: small;">Jack Black joined the group </span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img src="..." class="card-img-bottom" alt="...">
+                </div> -->
+                  <div class="col-sm-6">
+                    <a href="#" class="s9"> <img src="img/12.jpg" alt="No match found" height="20px" style="border-radius: 50%;"><span>Art Photographers</span></a>
+                  </div>
+                </div>
+                <div class="s22">
+                <a href=""><img src="img/11.jpg" alt="no image found" class="card-img-bottom s20 mt-5"></a>
+              </div>
+              <div>
+                <a href="#"><img src="img/12.jpg" alt="no image found" class="s21"></a>
+              </div>
+                  <p class="mt-5 text-center s25">Art Photographers</p>
+                  <button type="button" class="btn btn-primary s24">VISIT GROUP</button>
+                <!-- <h5 class="card-title"></h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+             
+              <img src="..." class="card-img-bottom" alt="..."> -->
+              </div>
+              <div class="d-flex">
+             <!-- <div class="col-sm-4">  -->
+              <i class="fa fa-comment-o p-1" aria-hidden="true"><span class="p-2">Comment 0</span></i>
+              <!-- </div> -->
+              <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-star-o p-1" aria-hidden="true"><span class="p-2">Favorite</span></i>
+            <!-- </div> -->
+            <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-trash-o p-1" aria-hidden="true"><span class="p-2">Delete</span></i>
+            <!-- </div> -->
+              </div>
+            </div>
+
+            <div class="card p-2 mt-5">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-12">
+                        <img src="img/6.jpg" alt="no image found" height="45px" style="border-radius: 50%;"><a href="#" class="s9 ps-3 pe-1">Jack black</a><span class="text-muted">changed their profile picture</span>
+                        <a href="#" class="s9"><p class="text-muted ps-5">1 day , 22 hours ago</span></p>
+                  </div>
+                  <!-- <div class="card p-2 mt-3">
+                    <div class="card-body">
+                      <p class="card-title">
+                        <div class="d-flex">
+                            <div class="col sm-6">
+                                    <div class="d-flex">
+                                        <img src="img/6.jpg" class="p-1 mt-1 img-fluid  s15" alt="" style="height: 45px;">
+                                        <span class="p-1 mt-1" style="font-size: small;">Jack Black joined the group <a href="" class="text-muted " style="text-decoration: none;">20 hours, 15 minutes ago</a></span><a href=""></a>
+                                    </div>
+                            </div>
+                            <div class="col sm-6">
+                                <div class="d-flex">
+                                    <img src="img/9.jpg" class="p-1 mt-1 img-fluid  s19" alt="No image found">
+                                    <span class="p-1 mt-1 " style="font-size: small;">Jack Black joined the group </span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img src="..." class="card-img-bottom" alt="...">
+                </div> -->
+                  <!-- <div class="col-sm-6">
+                    <a href="#" class="s9"> <img src="img/12.jpg" alt="No match found" height="20px" style="border-radius: 50%;"><span>Art Photographers</span></a>
+                  </div> -->
+                </div>
+                <div class="s22">
+                <a href=""><img src="img/13.jpg" alt="no image found" class="card-img-bottom s20 mt-5"></a>
+              </div>
+              <div>
+                <a href="#"><img src="img/14.jpg" alt="no image found" class="s21"></a>
+              </div>
+                  <p class="mt-5 text-center s25" style="font-size: small;">Jack Black</p>
+                  <a href="#" class="s9"><p class="s9 text-center" style="font-size: small;">@ancorathemes</p></a>
+                  <button type="button" class="btn btn-primary s24">VISIT GROUP</button>
+                <!-- <h5 class="card-title"></h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+             
+              <img src="..." class="card-img-bottom" alt="..."> -->
+              </div>
+              <div class="d-flex">
+             <!-- <div class="col-sm-4">  -->
+              <i class="fa fa-comment-o p-1" aria-hidden="true"><span class="p-2">Comment 0</span></i>
+              <!-- </div> -->
+              <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-star-o p-1" aria-hidden="true"><span class="p-2">Favorite</span></i>
+            <!-- </div> -->
+            <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-trash-o p-1" aria-hidden="true"><span class="p-2">Delete</span></i>
+            <!-- </div> -->
+              </div>
+            </div>
+
+            <div class="card mt-5">
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="img/6.jpg" alt="No image found" height="45px" style="border-radius: 50%;"><a href="#" class="s9 ps-3 pe-1">Jack black</a><span class="text-muted">Posted an update</span>
+                  </div>
+                  <a href="#" class="s9"><span class="text-muted ps-5">2 day , 12 hours ago</span></a>
+                  <p class="text-muted mt-2">gece rüyamda bir at gördüm reis</p>
+                  <div class="d-flex">
+                    <i class="fa fa-comment-o p-1" aria-hidden="true"><span class="p-2">Comment 0</span></i>
+                    <i class="fa fa-star-o p-1" aria-hidden="true"><span class="p-2">Favorite</span></i>
+                    <i class="fa fa-trash-o p-1" aria-hidden="true"><span class="p-2">Delete</span></i>
+                  </div>
+                <!-- <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+
+
+            <div class="card p-2 mt-5">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-6">
+                        <img src="img/6.jpg" alt="no image found" height="45px" style="border-radius: 50%;"><a href="#" class="s9 ps-3 pe-1">Jack black</a><span class="text-muted">joined the group</span>
+                        <a href="#" class="s9"><span class="text-muted ps-5">1 day , 8 hours ago</span></a>
+                  </div>
+                  <!-- <div class="card p-2 mt-3">
+                    <div class="card-body">
+                      <p class="card-title">
+                        <div class="d-flex">
+                            <div class="col sm-6">
+                                    <div class="d-flex">
+                                        <img src="img/6.jpg" class="p-1 mt-1 img-fluid  s15" alt="" style="height: 45px;">
+                                        <span class="p-1 mt-1" style="font-size: small;">Jack Black joined the group <a href="" class="text-muted " style="text-decoration: none;">20 hours, 15 minutes ago</a></span><a href=""></a>
+                                    </div>
+                            </div>
+                            <div class="col sm-6">
+                                <div class="d-flex">
+                                    <img src="img/9.jpg" class="p-1 mt-1 img-fluid  s19" alt="No image found">
+                                    <span class="p-1 mt-1 " style="font-size: small;">Jack Black joined the group </span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img src="..." class="card-img-bottom" alt="...">
+                </div> -->
+                  <div class="col-sm-6">
+                    <a href="#" class="s9"> <img src="img/12.jpg" alt="No match found" height="20px" style="border-radius: 50%;"><span>Art Photographers</span></a>
+                  </div>
+                </div>
+                <div class="s22">
+                <a href=""><img src="img/11.jpg" alt="no image found" class="card-img-bottom s20 mt-5"></a>
+              </div>
+              <div>
+                <a href="#"><img src="img/12.jpg" alt="no image found" class="s21"></a>
+              </div>
+                  <p class="mt-5 text-center s25">Art Photographers</p>
+                  <button type="button" class="btn btn-primary s24">VISIT GROUP</button>
+                <!-- <h5 class="card-title"></h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+             
+              <img src="..." class="card-img-bottom" alt="..."> -->
+              </div>
+              <div class="d-flex">
+             <!-- <div class="col-sm-4">  -->
+              <i class="fa fa-comment-o p-1" aria-hidden="true"><span class="p-2">Comment 0</span></i>
+              <!-- </div> -->
+              <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-star-o p-1" aria-hidden="true"><span class="p-2">Favorite</span></i>
+            <!-- </div> -->
+            <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-trash-o p-1" aria-hidden="true"><span class="p-2">Delete</span></i>
+            <!-- </div> -->
+              </div>
+            </div>
+
+
+            <div class="card p-2 mt-5">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-6">
+                        <img src="img/6.jpg" alt="no image found" height="45px" style="border-radius: 50%;"><a href="#" class="s9 ps-3 pe-1">Jack black</a><span class="text-muted">joined the group</span>
+                        <a href="#" class="s9"><span class="text-muted ps-5">1 day , 8 hours ago</span></a>
+                  </div>
+                  <!-- <div class="card p-2 mt-3">
+                    <div class="card-body">
+                      <p class="card-title">
+                        <div class="d-flex">
+                            <div class="col sm-6">
+                                    <div class="d-flex">
+                                        <img src="img/6.jpg" class="p-1 mt-1 img-fluid  s15" alt="" style="height: 45px;">
+                                        <span class="p-1 mt-1" style="font-size: small;">Jack Black joined the group <a href="" class="text-muted " style="text-decoration: none;">20 hours, 15 minutes ago</a></span><a href=""></a>
+                                    </div>
+                            </div>
+                            <div class="col sm-6">
+                                <div class="d-flex">
+                                    <img src="img/9.jpg" class="p-1 mt-1 img-fluid  s19" alt="No image found">
+                                    <span class="p-1 mt-1 " style="font-size: small;">Jack Black joined the group </span>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img src="..." class="card-img-bottom" alt="...">
+                </div> -->
+                  <div class="col-sm-6">
+                    <a href="#" class="s9"> <img src="img/12.jpg" alt="No match found" height="20px" style="border-radius: 50%;"><span>Art Photographers</span></a>
+                  </div>
+                </div>
+                <div class="s22">
+                <a href=""><img src="img/11.jpg" alt="no image found" class="card-img-bottom s20 mt-5"></a>
+              </div>
+              <div>
+                <a href="#"><img src="img/12.jpg" alt="no image found" class="s21"></a>
+              </div>
+                  <p class="mt-5 text-center s25">Art Photographers</p>
+                  <button type="button" class="btn btn-primary s24">VISIT GROUP</button>
+                <!-- <h5 class="card-title"></h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+             
+              <img src="..." class="card-img-bottom" alt="..."> -->
+              </div>
+              <div class="d-flex">
+             <!-- <div class="col-sm-4">  -->
+              <i class="fa fa-comment-o p-1" aria-hidden="true"><span class="p-2">Comment 0</span></i>
+              <!-- </div> -->
+              <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-star-o p-1" aria-hidden="true"><span class="p-2">Favorite</span></i>
+            <!-- </div> -->
+            <!-- <div class="col-sm-4"> -->
+              <i class="fa fa-trash-o p-1" aria-hidden="true"><span class="p-2">Delete</span></i>
+            <!-- </div> -->
+              </div>
+            </div>
+
+            <div class="card mt-5">
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="img/6.jpg" alt="No image found" height="45px" style="border-radius: 50%;"><a href="#" class="s9 ps-3 pe-1">Jack black</a><span class="text-muted">Posted an update</span>
+                  </div>
+                  <a href="#" class="s9"><span class="text-muted ps-5">3 day , 1 hours ago</span></a>
+                  <p class="text-muted mt-2">Asyraf</p>
+                  <div class="d-flex">
+                    <i class="fa fa-comment-o p-1" aria-hidden="true"><span class="p-2">Comment 0</span></i>
+                    <i class="fa fa-star-o p-1" aria-hidden="true"><span class="p-2">Favorite</span></i>
+                    <i class="fa fa-trash-o p-1" aria-hidden="true"><span class="p-2">Delete</span></i>
+                  </div>
+                <!-- <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary mt-5 mb-5 s26 w-100">LOAD MORE</button>
+
+          </div>
+          <div class="col-lg-3   col-md- 12   col-sm-12 kl">
+          
+
+            <div class="card s7 p-3  mb-5">
+              <h2 class="text-black">Active Members</h2>
+              <hr class="pb-2">
+              <!-- <img class="card-img-top" src="img/3.jpg" alt="Card image cap"> -->
+              <div class="d-flex">
+              <img src="img/6.jpg" alt="no image found" class="s27 p-1">
+              <img src="img/7.png" alt="no image found" class="s27 p-1">
+              <img src="img/8.png" alt="no image found" class="s27 p-1">
+              <img src="img/15.png" alt="no image found" class="s27 p-1">
+            </div>
+            <hr>
+                  <a href="#" class="s9">VIEW ALL <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+            </div>
+           
+            <div class="card s7 p-3  mb-5">
+              <h2 class="text-black">Testimonials</h2>
+              <hr class="pb-2">
+              <!-- <img class="card-img-top" src="img/3.jpg" alt="Card image cap"> -->
+              <div class="d-flex mb-3">
+                <img src="img/55.jpg" alt="No image found" class="s28">
+                <img src="img/55.jpg" alt="No image found" class="s28">
+                <img src="img/55.jpg" alt="No image found" class="s28">
+                <img src="img/55.jpg" alt="No image found" class="s28">
+                <img src="img/55.jpg" alt="No image found" class="s28">
+              </div>
+              <p>You guys are awesome! it was an absolute pleasure doing business with you</p>
+
+              <div class="d-flex">
+              <img src="img/16.jpg" alt="no image found" class="s27 p-1">
+              <span class="ps-3">
+                Nayan McKnee <br>
+                Manager
+              </span>
+            </div>
+            <hr>
+                  <a href="#" class="s9">VIEW ALL <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+            </div>
+
+            
+            <div class="card s7 p-3  mb-5">
+              <h2 class="text-black">Recent Topic</h2>
+              <hr class="pb-2">
+              <!-- <img class="card-img-top" src="img/3.jpg" alt="Card image cap"> -->
+              <div class="d-flex">
+              <img src="img/14.jpg" alt="no image found" class="s29 pe-2">
+              <span>Gebruik van ChatGpt om een les voor te bereiden
+                   <p class="text-muted">By black jack</p>
+              </span>
+            </div>
+            <div class="d-flex">
+              <img src="img/14.jpg" alt="no image found" class="s29 pe-2">
+              <span>Gesis is king
+                   <p class="text-muted">By black jack</p>
+              </span>
+            </div>
+            <div class="d-flex">
+              <img src="img/14.jpg" alt="no image found" class="s29 pe-2">
+              <span>Nonscence topic
+                   <p class="text-muted">By black jack</p>
+              </span>
+            </div>
+            <div class="d-flex">
+              <img src="img/14.jpg" alt="no image found" class="s29 pe-2">
+              <span>This is a disicussion topic.
+                   <p class="text-muted">By black jack</p>
+              </span>
+            </div>
+            <hr>
+                  <a href="#" class="s9">VIEW ALL <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="card s7 p-3">
+              <h2 class="text-black">Tech news</h2>
+              <hr class="pb-2">
+             
+              <div class="d-flex pb-3">
+                <img src="img/7.png" alt="no image found" class="s27 p-1 ">
+                <span class="ps-3 pb-3">
+                  Nayan McKnee <br>
+                  Manager
+                </span>
+              </div>
+              <img class="card-img-top" src="img/19.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="mt-2"><a href="#" class="s9"> When you find a good Idea, Look for a better One</a></h5>
+                <p class="text-muted">Dem ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
+
+                <img src="img/like.jpg" alt="no image found" height="20px"><span class="ps-2 pe-3">0</span><img
+                  src="img/comment.jpg" alt="no image found" height="25px"><span class="ps-2 pe-3">0</span>
+                  <hr>
+                  <a href="#" class="s9">VIEW ALL <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+
+            
+            <div class="card s7 p-3 mt-5 mb-5">
+              <h2 class="text-black">Polls</h2>
+              <hr class="pb-2">
+              <!-- <img class="card-img-top" src="img/3.jpg" alt="Card image cap"> -->
+              
+              <p class="text-muted">If today is Tuesday, then what day will come after 3 days from today?</p>
+              <div class="form-check m-1">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label text-muted" for="flexRadioDefault1">
+                  Friday
+                </label>
+              </div>
+              <div class="form-check m-1">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label  text-muted" for="flexRadioDefault1">
+                  Sturday
+                </label>
+              </div>
+              <div class="form-check m-1">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label  text-muted" for="flexRadioDefault1">
+                  Sunday
+                </label>
+              </div>
+              
+            <hr>
+            <button type="button" class="btn btn-primary s24 w-25">VOTE</button>
+            </div>
+
+            <div class="card mt-5 p-2" >
+              <h5 class="card-title p-2 m-0">Groups</h5>
+              <div class="card-body">
+                <!-- <h5 class="card-title">Team member <span class="s13">6</span></h5> -->
+                <hr>
+                <a href="#" class="s14 p-2 m-2">NEWEST</a>
+                <a href="#" class="s14 p-2 m-2">ACTIVE</a>
+                <a href="#" class="s14 p-2 m-2">POPULAR</a>
+                <a href="#" class="s14 p-2 m-2">ALPHABETICAL</a>
+                <div class="card mb-3 mt-3" style="max-width: 540px; border: none;">
+                  <div class="row g-1">
+                    <div class="col-md-4">
+                      <a href=""><img src="img/20.jpg" style="border-radius: 50%;" alt="no image found" height="70px"></a>
+                      <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body p-0">
+                        <!-- <h5 class="card-title">Card title</h5> -->
+                        <a href="#" class="s9 card-title">Management Secret</a>
+                        <p class="card-text"><small class="text-muted">Active 1 days, 2 hours ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 mt-3" style="max-width: 540px; border: none;">
+                  <div class="row g-1">
+                    <div class="col-md-4">
+                      <a href=""><img src="img/21.jpg" alt="no image found" style="border-radius: 50%;" height="70px"></a>
+                      <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body p-0">
+                        <!-- <h5 class="card-title">Card title</h5> -->
+                        <a href="#" class="s9 card-title">Art Photographers</a>
+                        <p class="card-text"><small class="text-muted">Active 1 day, 10 hours ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 mt-3" style="max-width: 540px; border: none;">
+                  <div class="row g-1">
+                    <div class="col-md-4">
+                      <a href=""><img src="img/22.jpg" alt="no image found" height="70px" style="border-radius: 50%;" ></a>
+                      <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body p-0">
+                        <!-- <h5 class="card-title">Card title</h5> -->
+                        <a href="#" class="s9 card-title">Art group</a>
+                        <p class="card-text"><small class="text-muted">Active 6 day , 11 hour ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <a href="#" class="s9">VIEW ALL <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- senssion end -->
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
